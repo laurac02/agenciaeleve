@@ -1,0 +1,18 @@
+# Archivos personales / trabajo
+*.png
+*.pdf
+b73dbd8c-*.jpg
+bfca2a76-*.jpg
+guia visual*
+brief-marca*
+foto principal*
+logo-eleve.svg
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+
+# Fuente antigua (renombrada)
+TestSohneBreit-Leicht-BF663d89cae7333.otf

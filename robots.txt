@@ -1,0 +1,26 @@
+# robots.txt — Éleve | SEO para Clínicas Estéticas
+# https://agenciaeleve.es
+
+User-agent: *
+Allow: /
+
+# Bloquear recursos innecesarios para el rastreo
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-includes/
+Disallow: /cgi-bin/
+Disallow: /*.php$
+Disallow: /search?
+Disallow: /*?s=
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+
+# Permitir archivos clave de rastreo
+Allow: /wp-admin/admin-ajax.php
+
+# Sitemap
+Sitemap: https://agenciaeleve.es/sitemap.xml
+
+# Crawl-delay recomendado (opcional)
+Crawl-delay: 1
